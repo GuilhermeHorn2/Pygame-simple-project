@@ -56,7 +56,7 @@ def run_game():
             game_over_message = message_font.render('Game Over!',True,red)
             game_over_message2 = message_font.render('Press 1 to quit or 2 to continue', True, red)
             game_display.blit(game_over_message,[width/3,height/3])
-            game_display.blit(game_over_message2, [width / 4.5, height / 1.5])
+            game_display.blit(game_over_message2, [width / 5, height / 1.5])
             print_score(snake_length - 1)
             pygame.display.update()
 
