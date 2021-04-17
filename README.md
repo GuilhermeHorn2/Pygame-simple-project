@@ -1,3 +1,3 @@
-# Python-Snake-Game
+# Snake Prototype
 
 A simple snake game with pygame
